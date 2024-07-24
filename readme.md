@@ -14,25 +14,6 @@ This repository contains a sophisticated system designed to generate, execute, a
 
 ## Project Structure
 
-
-markdown
-Copy code
-# LLM-Powered Code Generation and Verification System
-
-## Overview
-
-This repository contains a sophisticated system designed to generate, execute, and verify Python code using a large language model (LLM). The core functionality includes querying an LLM to generate SQL-based Python scripts, executing those scripts, and verifying the correctness of the outputs against expected results. The project leverages a combination of agents, including a primary LLM agent for code generation, a verification agent to validate outputs, and a long-term memory system for improving future queries based on past successful code generations.
-
-## Features
-
-- **Code Generation**: Generates Python code snippets based on natural language queries.
-- **Code Execution**: Executes the generated Python code and captures the output.
-- **Output Verification**: Verifies the correctness of the code output using an LLM-based verification agent.
-- **Long-Term Memory**: Stores past successful queries and their generated code to enhance future code generation.
-- **Logging**: Maintains detailed logs of all interactions, including queries, generated code, execution results, and verification outcomes.
-
-## Project Structure
-
 ```
 your_project/
 |-- init.py
