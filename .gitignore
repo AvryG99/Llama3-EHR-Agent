@@ -1,0 +1,47 @@
+# Ignore the env directory
+env/
+
+# Ignore the logs directory
+logs/
+
+# Ignore the result directory
+result/
+
+# Ignore the longterm_memory.json file
+longterm_memory.json
+
+# General Python ignores
+*.py[cod]
+__pycache__/
+*.so
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+*.mocha
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# virtualenv
+.venv/
